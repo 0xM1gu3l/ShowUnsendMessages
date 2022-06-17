@@ -12,10 +12,9 @@
  module.exports = class ShowUnsendMessages {
     load() {} // Optional function. Called when the plugin is loaded in to memory
 
-    start() {
-		showToast("Hello! ShowUnsendMessages entered on the party!", {type:"success", icon: true});
-	} // Required function. Called when the plugin is activated (including after reloads)
+    start() {} // Required function. Called when the plugin is activated (including after reloads)
     stop() {} // Required function. Called when the plugin is deactivated
+	//Testing if the plugin will auto-update
 
     observer(changes) {} // Optional function. Observer for the `document`. Better documentation than I can provide is found here: <https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver>
 }
